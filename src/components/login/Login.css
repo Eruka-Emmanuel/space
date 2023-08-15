@@ -1,0 +1,148 @@
+.form-width {
+    width: 300px;
+}
+.description{
+    font-weight: 900;
+}
+.domain {
+    color: rgb(69,102,122);
+}
+
+/* media queries */
+/*  Smartphones (portrait and landscape)  */
+@media screen and ((min-width: 320px) and (max-width: 546px)){
+    .domain {
+        font-size: 2.4rem;
+        font-weight: 100;
+        padding-bottom: 3rem;
+    }
+    .description{
+        font-size: 2.5rem;
+    }
+    .custom-margin-top-large {
+        margin-top: 2rem;
+    }
+    .domain-name-space {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form-space {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and ((min-width: 547px) and (max-width: 767px)){
+    .domain {
+        font-size: 3rem;
+        font-weight: 100;
+        padding-bottom: 3rem;
+    }
+    .description{
+        font-size: 3.5rem;
+    }
+    .custom-margin-top-large {
+        margin-top: 2rem;
+    }
+    .domain-name-space {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form-space {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and ((min-width: 768px) and (max-width: 991px)){
+    .domain {
+        font-size: 3.5rem;
+        font-weight: 100;
+        padding-bottom: 3rem;
+    }
+    .description{
+        font-size: 3.5rem;
+    }
+    .custom-margin-top-large {
+        margin-top: 2rem;
+    }
+    .domain-name-space {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form-space {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and ((min-width: 992px) and (max-width: 1199px)){
+    .domain {
+        font-size: 8rem;
+        font-weight: 100;
+        padding-top: 6rem;
+        text-align: center;
+    }
+    .description{
+        font-size: 4rem;
+    }
+    .custom-margin-top-large {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .form-space {
+        width: 560px;
+    }
+}
+
+/* Desktops and laptops  */
+@media  screen and ((min-width: 1200px) and (max-width: 1823px)){
+    .domain {
+        font-size: 11rem;
+        font-weight: 100;
+        padding-top: 6rem;
+        padding-bottom: 0;
+        text-align: center;
+    }
+    .description{
+        font-size: 4rem;
+    }
+    .custom-margin-top-large {
+        margin-top: 5.2rem;
+        padding-left: 0;
+    }
+    .custom-pad-self-left {
+        padding-left: 2px;
+    }
+    .form-space {
+        width: 550px;
+    }
+}
+/*  Large screens */
+@media screen and (min-width: 1824px){
+    .domain {
+        font-size: 11rem;
+        font-weight: 100;
+        padding-top: 6rem;
+        padding-bottom: 0;
+        text-align: center;
+    }
+    .description{
+        font-size: 4rem;
+    }
+    .custom-margin-top-large {
+        margin-top: 5.2rem;
+        padding-left: 0;
+    }
+    .custom-pad-self-left {
+        padding-left: 2px;
+    }
+    .form-space {
+        width: 550px;
+    }
+}

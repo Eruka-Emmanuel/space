@@ -1,0 +1,123 @@
+.root .col-12 > * {
+  background-color: #fff;
+}
+.btn {
+  padding-top: .28rem;
+  padding-bottom: .48rem;
+  padding-left: 1rem;
+  border: none;
+  border-radius: 2rem; 
+  font-weight: 600;
+  font-size: .98rem;
+}
+.btn-primary {
+  background-color: rgb(56,83,99);
+}
+.btn-primary:hover {
+  background-color: rgb(44,65,78)!important;
+}
+.btn-outline-primary {
+  background-color: inherit;
+  border: 1px solid #dbdbdb;
+  color: rgb(56,83,99);
+}
+.btn-outline-primary:hover {
+  border: 1px solid #dbdbdb;
+  color: rgb(56,83,99);
+  background-color: rgba(182,202,214,.3);
+}
+.fa-App {
+  font-size: 1.2rem;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; */
+}
+.fillet-border-sm-App {
+  border-radius: .33rem; /* .33rem; */
+}
+form input {
+  font-size: .88rem!important;
+  border-radius: 2rem!important; 
+  padding-top: .28rem!important;
+  padding-bottom: .48rem!important;
+  padding-left: 1rem!important;
+}
+.hr-light-App {
+  color: rgba(182,202,214,.9);
+}
+.light-background-theme-color-App {
+  background-color: rgba(182,202,214,.3);
+}
+.light-border-outline-App {
+  border: 1px solid rgb(242,242,242);
+  border-radius: .3rem;
+}
+.link-App {
+  color: rgb(56,83,99);
+  text-decoration: none;
+  font-weight: 700;
+}
+.link-App:hover {
+  color: rgb(43,64,77);
+  text-decoration: underline;
+}
+.nav-link-App {   
+  text-decoration: none;
+  color: inherit;
+}
+.nav-link-App:hover {
+  color: rgb(56,83,99);
+}
+.nav-link-shaded-background-App a.active {
+  border-radius: 2rem; 
+  background-color: rgba(182,202,214,.3);
+  color: rgb(56,83,99);
+}
+.nav-link-non-shaded-background-App a.active {
+  color: rgb(56,83,99);
+}
+.smaller-font-size-App {
+  font-size: .87rem;
+}
+.text-theme-color-App {
+  color: rgb(56,83,99);
+}
+
+/* media queries */
+@media screen and ((min-width: 320px) and (max-width: 546px)){
+  
+}
+@media screen and ((min-width: 547px) and (max-width: 767px)){
+  
+}
+@media screen and ((min-width: 768px) and (max-width: 991px)){
+  .fa-App {
+    font-size: 1.5rem;
+  }
+}
+@media screen and ((min-width: 992px) and (max-width: 1199px)){
+  .fa-App {
+    font-size: 1.5rem;
+  }
+  .custom-col-lg-3 {
+    width: 15%;
+  }
+  .custom-col-lg-3 {
+    width: 70%;
+  }
+}
+
+/* Desktops and laptops  */
+@media  screen and ((min-width: 1200px) and (max-width: 1823px)){
+  .fa-App {
+    font-size: 1.6rem;
+  }
+}
+/*  Large screens */
+@media screen and (min-width: 1824px){
+  .fa-App {
+    font-size: 1.6rem;
+  }
+}

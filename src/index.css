@@ -1,0 +1,16 @@
+@import '~typeface-open-sans'; 
+
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+@import "./App.css";
+
+body {
+  background-color: rgb(247,249,251); 
+  margin: 0;
+  color:  #000;/* #524f4f; */
+  font-family: 'Open Sans', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
